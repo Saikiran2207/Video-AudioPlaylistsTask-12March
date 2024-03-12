@@ -1,0 +1,60 @@
+body{
+    background-color: gray;
+}
+.holder{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    border: 10px;
+    border: solid 5px black;
+    border-style: inset;
+}
+.image{
+    /*width: 18%;*/
+   border: 10px;
+    border: solid 5px black;
+    border-style: inset;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: left;
+    
+}
+.border{
+    border-color: black;
+    border-style: inset;
+    border-width: 5px;
+    border-radius: 10px;
+    margin: 5px;
+    border-spacing: inherit;
+    border: solid 50px black;
+    
+}
+.border1{
+    border-color: black;
+    border-style: inset;
+    border-width: 5px;
+    border-radius: 10px;
+    margin: 5px;
+    border-spacing: inherit;
+    
+}
+.rainbow-text {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+}
+        .text{
+            margin: 5px auto;
+            text-align: center;
+            color: white;
+            font-size: 2em;
+            transition: 5s;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+ 
+        text:hover {
+            text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc,
+                0 3px 0 #ccc, 0 4px 0 #ccc,
+                0 5px 0 #ccc, 0 6px 0 #ccc,
+                0 7px 0 #ccc, 0 8px 0 #ccc,
+                0 9px 0 #ccc, 0 10px 0 #ccc,
+                0 11px 0 #ccc, 0 12px 0 #ccc,
+                0 20px 30px rgba(0, 0, 0, 0.5);

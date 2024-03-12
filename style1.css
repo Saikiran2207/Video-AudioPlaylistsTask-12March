@@ -1,0 +1,33 @@
+body{
+    background-color: gray;
+}
+.holder{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    border: 10px;
+    border: solid 5px black;
+    border-style: inset;
+}
+.image{
+    /*width: 18%;*/
+   border: 10px;
+    border: solid 154px black;
+    border-style: inset;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: left;
+    
+}
+.border{
+    border-color: black;
+    border-style: inset;
+    border-width: 5px;
+    border-radius: 10px;
+    margin: 5px;
+    border-spacing: inherit;
+    
+}
+.rainbow-text {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+}
